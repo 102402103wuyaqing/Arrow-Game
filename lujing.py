@@ -3,11 +3,11 @@ import sys
 import math
 import os
 from enum import Enum
-# ==================== 配置 ====================
+
 CELL_SIZE = 70
 GRID_COLS = 8
 GRID_ROWS = 8
-HUD_HEIGHT = 100  # 从 90 调整为 100，增加空间
+HUD_HEIGHT = 100  
 WIDTH = CELL_SIZE * GRID_COLS
 HEIGHT = HUD_HEIGHT + CELL_SIZE * GRID_ROWS
 FPS = 60
