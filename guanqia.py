@@ -4,7 +4,6 @@ import math
 import os
 from enum import Enum
 
-# ==================== 配置 ====================
 CELL_SIZE = 70
 GRID_COLS = 8
 GRID_ROWS = 8
